@@ -3,6 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.jumbotron {
+  color: #FFFFFF;
+  background-image: url('https://static.pexels.com/photos/2143/lights-party-dancing-music.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+.jumbotron > p {
+  color: #FFFFFF;
+
+}
+
 h1 {
   color: #1976D2;
   font-size: 50px;
