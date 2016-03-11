@@ -1,0 +1,9 @@
+<h1> Review Festivals Here </h1>
+
+<p> Write your reviews here! Anything you want - things you loved, hated, if you would go back again, etc! </p>
+
+<%= simple_form_for @review, url: root_path do |f| %>
+  <%= f.input :commentary %>
+  <%= f.input :author %>
+  <%= f.submit 'Create', class: 'btn' %>
+<% end %>

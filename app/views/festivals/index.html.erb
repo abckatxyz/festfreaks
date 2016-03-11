@@ -2,11 +2,14 @@
 <div class="jumbotron">
   <h1>Fest Freaks</h1>
   <p> Review your favorite festivals</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  <p><a class="btn btn-primary btn-lg"
+    <%= link_to 'Write A Review Here', new_festival_path %>
+    </a></p>
 </div>
 
 
 
-<p>
-"Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing elit. Nizzle sapien velizzle, bling bling volutpat, suscipit , gravida vel, arcu. Check it out hizzle that's the shizzle. We gonna chung erizzle. Fo izzle dolor fo turpis tempizzle tempor. Gangsta boom shackalack mofo et turpizzle. Sizzle izzle tortor. Pellentesque uhuh ... yih!"
-</p>
+
+<h1> Some Reviews: </h1>
+<p><%= @review.commentary %></h1>
+  <p> - <%= @review.author %> </p>
